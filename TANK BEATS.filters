@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\player">
+      <UniqueIdentifier>{e9862eaf-4312-41ca-992f-0102968770f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\player">
+      <UniqueIdentifier>{a9fe8eb5-5e93-4762-a813-a417d184b0f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene">
+      <UniqueIdentifier>{983ac61e-7d97-4046-be17-04fc15983688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\scene">
+      <UniqueIdentifier>{72e3f6fe-bebd-46bd-a1ce-7c1c420f32fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game play">
+      <UniqueIdentifier>{06f2d59a-1fe3-463f-8be1-40ac6b816e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\game play">
+      <UniqueIdentifier>{d43c5cf8-e6e3-4058-a9a1-347967602650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\enemy">
+      <UniqueIdentifier>{004d827f-444f-4f0a-9e84-565c78743793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\enemy">
+      <UniqueIdentifier>{06b62df4-db99-4b2b-a166-890b5dae89a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\object">
+      <UniqueIdentifier>{755a4683-1aad-4768-8457-5456a374157f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\video">
+      <UniqueIdentifier>{f00a6645-42c6-44ab-9f87-1b3770919ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\video">
+      <UniqueIdentifier>{e758f2ac-5b4f-455a-93ca-1db0f908919e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\effect">
+      <UniqueIdentifier>{d20062b2-dfb7-4a11-8a55-bd182d59779a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\effect">
+      <UniqueIdentifier>{aba99061-ecdf-4b26-b190-a395ba9b2e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\main">
+      <UniqueIdentifier>{1aa0f8be-be4a-4420-a58b-fe749bfaa29f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\player\車体（親:車体）">
+      <UniqueIdentifier>{da90d994-51fd-44cd-9426-8f0ac94d8bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\player\キャタピラ（親:車体）">
+      <UniqueIdentifier>{dfac1c1d-fda9-48cf-89e8-3c1f3f350ad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\player\主砲先（親:砲塔）">
+      <UniqueIdentifier>{ca6ff74c-65d2-4110-adb7-f0758c3a8b6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\player\砲塔（親:車体）">
+      <UniqueIdentifier>{192a898b-f5a7-4c25-8a0a-84adc3a21d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\player\主砲（親:砲塔）">
+      <UniqueIdentifier>{2f8da1a8-670d-4f51-87e8-2feab6397231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\object">
+      <UniqueIdentifier>{a802dae6-059f-4be7-a00a-6f595daac576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UI">
+      <UniqueIdentifier>{1abbf980-b3c4-487f-a787-fc5f6590bf21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\UI">
+      <UniqueIdentifier>{3252bac4-31b1-410f-a171-102261262910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main">
+      <UniqueIdentifier>{f6ab0864-1e8c-4a5f-8782-250cf98e9e28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\player</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル\game play</Filter>
+    </ClCompile>
+    <ClCompile Include="field.cpp">
+      <Filter>ソース ファイル\game play</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\game play</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>ソース ファイル\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="tree.cpp">
+      <Filter>ソース ファイル\object</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>ソース ファイル\video</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow.cpp">
+      <Filter>ソース ファイル\video</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>ソース ファイル\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="player_parts_a.cpp">
+      <Filter>ソース ファイル\player\車体（親:車体）</Filter>
+    </ClCompile>
+    <ClCompile Include="player_parts_e.cpp">
+      <Filter>ソース ファイル\player\キャタピラ（親:車体）</Filter>
+    </ClCompile>
+    <ClCompile Include="player_parts_c.cpp">
+      <Filter>ソース ファイル\player\主砲（親:砲塔）</Filter>
+    </ClCompile>
+    <ClCompile Include="player_parts_d.cpp">
+      <Filter>ソース ファイル\player\主砲先（親:砲塔）</Filter>
+    </ClCompile>
+    <ClCompile Include="player_parts_b.cpp">
+      <Filter>ソース ファイル\player\砲塔（親:車体）</Filter>
+    </ClCompile>
+    <ClCompile Include="meshwall.cpp">
+      <Filter>ソース ファイル\game play</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>ソース ファイル\object</Filter>
+    </ClCompile>
+    <ClCompile Include="debugproc.cpp">
+      <Filter>ソース ファイル\video</Filter>
+    </ClCompile>
+    <ClCompile Include="billboard.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="target.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル\game play</Filter>
+    </ClCompile>
+    <ClCompile Include="barrier.cpp">
+      <Filter>ソース ファイル\object</Filter>
+    </ClCompile>
+    <ClCompile Include="life.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="notes.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="reversenotes.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="star.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="bar.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="circle.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="pause.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="player.h">
+      <Filter>ヘッダー ファイル\player</Filter>
+    </ClInclude>
+    <ClInclude Include="player_parts_b.h">
+      <Filter>ヘッダー ファイル\player</Filter>
+    </ClInclude>
+    <ClInclude Include="player_parts_c.h">
+      <Filter>ヘッダー ファイル\player</Filter>
+    </ClInclude>
+    <ClInclude Include="player_parts_d.h">
+      <Filter>ヘッダー ファイル\player</Filter>
+    </ClInclude>
+    <ClInclude Include="player_parts_a.h">
+      <Filter>ヘッダー ファイル\player</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorial.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ヘッダー ファイル\game play</Filter>
+    </ClInclude>
+    <ClInclude Include="field.h">
+      <Filter>ヘッダー ファイル\game play</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル\game play</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>ヘッダー ファイル\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="tree.h">
+      <Filter>ヘッダー ファイル\object</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>ヘッダー ファイル\video</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow.h">
+      <Filter>ヘッダー ファイル\video</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>ヘッダー ファイル\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="player_parts_e.h">
+      <Filter>ヘッダー ファイル\player</Filter>
+    </ClInclude>
+    <ClInclude Include="meshwall.h">
+      <Filter>ヘッダー ファイル\game play</Filter>
+    </ClInclude>
+    <ClInclude Include="debugproc.h">
+      <Filter>ヘッダー ファイル\video</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>ヘッダー ファイル\object</Filter>
+    </ClInclude>
+    <ClInclude Include="billboard.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="target.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ヘッダー ファイル\game play</Filter>
+    </ClInclude>
+    <ClInclude Include="barrier.h">
+      <Filter>ヘッダー ファイル\object</Filter>
+    </ClInclude>
+    <ClInclude Include="life.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="notes.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="reversenotes.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="star.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="bar.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="circle.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="pause.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
