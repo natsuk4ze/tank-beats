@@ -2,7 +2,7 @@
 
 Hi👋 Tanks Beats is 3D music x shooting game ceated by [Midori](https://github.com/natsuk4ze) using DirectX.
  
- <img src="https://github.com/natsuk4ze/tank-beats/blob/master/readme-assets/example.gif" alt="showcase" width="600"/>
+ <img src="https://github.com/natsuk4ze/tank-beats/blob/master/readme-assets/example.gif" alt="showcase" width="800"/>
 
 ## Features
 
