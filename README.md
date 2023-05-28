@@ -37,4 +37,4 @@ Clone this repo and hit _game.exe_ file, located in project root.
 ## LICENSE
 
 * BGM - it's authors
-* Other [Midori Natsuk4ze](https://github.com/natsuk4ze)
+* Other - [Midori Natsuk4ze](https://github.com/natsuk4ze)
