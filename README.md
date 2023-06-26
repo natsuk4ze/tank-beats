@@ -36,5 +36,5 @@ Clone this repo and hit _game.exe_ file, located in project root.
 
 ## LICENSE
 
-* BGM - it's authors
+* BGM - Starlyte - When The Earth Goes Dark (feat. Brenton Mattheus)
 * Other - [Midori Natsuk4ze](https://github.com/natsuk4ze)
